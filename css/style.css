@@ -858,12 +858,11 @@ img {
 /*.contact__form {
   animation: moveToRight 1s ease;
 }*/
-.row__contact{
+.row__contact {
   justify-content: center;
   margin: auto 0;
 }
 .contact__info {
-  animation: moveToLeft 1s ease;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
@@ -871,6 +870,17 @@ img {
   justify-content: center;
   text-align: center;
 }
+
+.contact__info-item:nth-child(1) {
+  animation: moveToTop 1s ease;
+}
+.contact__info-item:nth-child(2) {
+  animation: moveToTop 1.5s ease;
+}
+.contact__info-item:nth-child(3) {
+  animation: moveToTop 2s ease;
+}
+
 
 /*.contact__form,
 .contact__info {
